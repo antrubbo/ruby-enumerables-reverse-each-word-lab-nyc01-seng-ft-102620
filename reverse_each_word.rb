@@ -3,6 +3,7 @@ def reverse_each_word(s)
   # newer_s =[]
   new_s.collect do |i|
     i.reverse
+    new_s.join(" ")
   end
-  new_s.join(" ")
+  
 end
